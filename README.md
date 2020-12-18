@@ -84,7 +84,9 @@ class Profile(models.Model):
 
 
 ! each time server re runs all the attributes resets
+<br>
 ! Your ready() method will run during startup of every management command. 
+<br>
 ! weakref : if the connetion is weak garbage collector can delete connection 
 
 
