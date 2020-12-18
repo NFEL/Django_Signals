@@ -32,12 +32,12 @@ def check_request_integrity(sender,environ,*args, **kwargs):
       ```python
       Signal_name.connect(function_name)  
       ```
-  - III. **Connection Parameters**  _extras_
-      - **receiver** <_function_> : function to be called when event happens
-      - **sender** <_model/obj_> : who sent this -e.g. model-instance , can be a string 'Me' 
-      - **weak** <_bool_> : prevent from beeing collected by garbage collector
-      - **dispatch_uid** <_str_> : preventing duplication (جلوگیری از چند بار وصل شدن یک تابع به یک سیگنال)
-        - _if None -> Dynamicly generates ... id(target.__self__), id(target.__func__)_
+- III. **Connection Parameters**  _extras_
+    - **receiver** <_function_> : function to be called when event happens
+    - **sender** <_model/obj_> : who sent this -e.g. model-instance , can be a string 'Me' 
+    - **weak** <_bool_> : prevent from beeing collected by garbage collector
+    - **dispatch_uid** <_str_> : preventing duplication (جلوگیری از چند بار وصل شدن یک تابع به یک سیگنال)
+      - _if None -> Dynamicly generates ... id(target.__self__), id(target.__func__)_
   
     
 
