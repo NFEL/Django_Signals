@@ -79,6 +79,7 @@ class Profile(models.Model):
 - III.  signal send() from the place you want to trigger 
 - IV.   define reciver function
 - V.    connect to signal instance
+<br>
 **PARAMETERS**
 - use cahcing   _The cache is cleaned when .connect() or .disconnect() is called and populated on send()_
 
