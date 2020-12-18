@@ -71,9 +71,9 @@ class Profile(models.Model):
         - in init file of each app :    'foo_name_ . apps . foo_Config_class_name'
 
 
-#### Custom Signals 
+## Custom Signals 
 **(! signal is implicit -> trouble in debugging -> it's better to use explicit funtion call instead of signal)**
-##### Steps
+#### Steps
 - I.    from django.dispatch import Signal
 - II.   create instance
 - III.  signal send() from the place you want to trigger 
